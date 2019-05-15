@@ -24,7 +24,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".DriverLoginActivity" />
-        <activity android:name=".MapActivity" />
         <activity android:name=".CustomerLoginActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -40,7 +39,8 @@
 
         <activity
             android:name=".DriverMapActivity"
-            android:label="@string/title_activity_driver_map"></activity>
+            android:label="@string/title_activity_driver_map" />
+        <activity android:name=".CustomerMapActivity"></activity>
     </application>
 
 </manifest>
